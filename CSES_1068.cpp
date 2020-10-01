@@ -1,9 +1,11 @@
-
 #include<bits/stdc++.h>
 using namespace std;
-
-int main()
+#define FIO ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+ 
+#define int long long
+int32_t main()
 {
+    FIO
     int n; cin>>n;
     cout<<n<<" ";
     while(n!=1){
@@ -15,4 +17,3 @@ int main()
     return 0;
  
 }
- 
