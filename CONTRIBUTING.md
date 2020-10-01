@@ -11,12 +11,12 @@ You can make contributions by submitting solutions to Programming Problems from 
 
 ## Rules
 
-When making a pull request you shall name the file in following format:
-```
-For Codeforces: <Site_Name>_<Contest_Number>_<QuestionCode/Number>
-For rest of the websites: <Site_Name>_<QuestionCode/Number>
-```
-Consider following examples:
+1. Submissions for any ongoing contest will not be accepted and will be strictly dealt with.
 
-Codeforces_1405_A.py<br/>
-Leetcode_1435.cpp
+2. You have to submit at least 3 question solutions in a PR.
+
+3. Attach Proof of Your AC Submission(Screenshot of AC Result)
+
+4. For more information see issues.
+
+# Happy Coding !
