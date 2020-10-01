@@ -6,9 +6,6 @@ using namespace std;
 
 typedef signed long long int ull;
 
-//mujhe samajh nhi aa rha iski approach kaise samjhau 
-//agar nhi aaye samajh to mujhse puchlena :) 
-
 vector<int> partitionLabels(string str) {
 	int n = str.length();
 	vector<int> left(26 , -1);
