@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
+#define ll long long int
 using namespace std;
 int main()
 {
-	int n,a,b,c,d=1,e,i,j;
+	ll n,a,b,c,d=1,e,i,j;
 	cin>>n>>a>>b>>c;
 	for(i=0;i<=4000;i++)
 		for(j=0;j<=4000;j++)
