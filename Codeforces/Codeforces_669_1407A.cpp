@@ -2,7 +2,7 @@
 
 // As the array consists only 0s and 1s and we need to remove atmost n/2 elements, print the resulting array
 // We will count the number of zeroes, then number of will be n - number of zeroes or vice versa
-// If number of zeroes is greater than n/2 the surey the condition is satisfied and we need to print an array containing 0s.
+// If number of zeroes is greater than n/2 the surely the condition is satisfied and we need to print an array containing 0s.
 // Else we need to print the array that contains only 1s but its length must be even so that alternating sum is always zero.
 
 #include <iostream>
