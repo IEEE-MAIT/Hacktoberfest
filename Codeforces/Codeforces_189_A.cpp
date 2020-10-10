@@ -1,7 +1,7 @@
 /*
     Problem link: https://codeforces.com/problemset/problem/189/A
 
-    The problem asks to finc the maximum number of pieces a ribbon of given length can be cut
+    The problem asks to find the maximum number of pieces a ribbon of given length can be cut
     such that each of the smaller ribbon pieces has length a or b or c.
     Read through the code and follow the comments for understanding how the solution works.
 
