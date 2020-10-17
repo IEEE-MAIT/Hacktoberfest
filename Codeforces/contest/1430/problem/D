@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+  int t;
+  cin>>t;
+  while(t--)
+  {
+    int n,cur=0;
+    cin>>n;
+    string s;
+    cin>>s;
+    queue<int> q;
+    for(int i=1;i<n;i++)
+    {
+      if(s[i]!=s[i-1]){cur++;}
+      else
+        q.push(cur);
+    }
+    int del=0,score=0;
+    for(int i=0;i<n;i++)
+    {
+      if(q.empty())break;
+      q.pop();
+     score++;
+     del++;
+     while(!q.empty()&&q.front()==i)
+     {
+      del++;
+      q.pop();
+     }
+     del++;
+    }
+    score+=(n-del+1)/2;
+    cout<<score<<endl;
+  }
+  return 0;
+}
