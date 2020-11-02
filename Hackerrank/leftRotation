@@ -1,0 +1,39 @@
+#include<stdio.h>
+void rotate(int [], int, int);
+void rot(int [], int);
+void print(int [], int);
+int main()
+{
+	int a[1000000], i, n, d;
+	scanf("%d",&n);
+	scanf("%d",&d);
+	for(i=0; i<n; i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	rotate(a, n, d);
+	print(a, n);
+}
+void rotate(int a[1000000], int n, int d)
+{
+	int i;
+	for(i=0; i<d; i++)
+		rot(a,n);
+}
+void rot(int a[1000000], int n)
+{
+	int temp=a[0], i;
+	for(i=0; i<n-1; i++)
+	{
+		a[i]=a[i+1];
+	}
+	a[i]=temp;
+}
+void print(int a[1000000], int n)
+{
+	int i;
+	for(i=0; i<n; i++)
+	{
+		printf("%d ",a[i]);
+	}
+}
