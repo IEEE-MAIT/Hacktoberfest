@@ -1,10 +1,11 @@
-#include<stdio.h>
+#include<bits/std++.h>
+#define ll long long int
 int main()
 {
- int n;
+ ll n;
  cin>>n;
- int num;
- int e=0,o=0,eve,odd;
+ ll num;
+ ll e=0,o=0,eve,odd;
  for(int i=0;i<n;i++)
    {
      cin>>num;
