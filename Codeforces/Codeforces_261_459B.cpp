@@ -1,8 +1,9 @@
 #include<bits/stdc++.h>
+#define ll long long int
 using namespace std;
 main()
 {
-	long long i,j,n,a[200040];
+	ll i,j,n,a[200040];
 	for(cin>>n;j++<n;)cin>>a[j];
 	sort(a,a+n+1);
 	for(;a[++i]==a[i+1];);
